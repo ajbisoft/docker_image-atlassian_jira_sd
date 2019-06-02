@@ -24,7 +24,7 @@ RUN apk update -qq \
 
 COPY entrypoint.sh              /entrypoint.sh
 
-ARG JIRA_VERSION=3.13.2
+ARG JIRA_VERSION=4.2.1
 ARG DOWNLOAD_URL=https://www.atlassian.com/software/jira/downloads/binary/atlassian-servicedesk-${JIRA_VERSION}.tar.gz
 #COPY . /tmp
 
